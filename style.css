@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  margin: 0 10%;
+}
+
+.container div {
+  padding: 0.5em;
+  color: white;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+}
+
+.photo {
+  border: 1px black solid;
+  margin: 0 15%;
+}
+
+.my_image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.circleBase {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 1px solid lightblue;
+}
+
+.profile {
+  border: 1px red solid;
+}
+
+.contact {
+  border: 1px green solid;
+}
+
+.skill {
+  border: 1px purple solid;
+}
+
+.education {
+  border: 1px red solid;
+}
+
+.experience {
+  border: 1px green solid;
+}
+
+.achievement {
+  border: 1px purple solid;
+}
